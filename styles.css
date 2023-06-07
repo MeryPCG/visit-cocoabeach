@@ -1,0 +1,102 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.hero{
+    height: 343px;
+    background-image: url("images/Cocoa-Beach.jpg");
+    background-size: cover;
+    padding: 10px 20px 40px 20px;
+    margin: 0px auto;
+    font-family: 'Arial';
+    font-style: normal;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#big-title{
+    font-size: 25px;
+    color: #ffffff; 
+    background: #1D3557;
+    padding: 7px 10px;
+    border-radius: 6px;
+    margin: 100px 0px 10px 0;
+}
+
+#subtitle{
+    font-size: 18px;
+    color: #ffffff;
+    background: #457B9D;
+    padding: 7px 10px;
+    border-radius: 12px;
+    margin: 5px 1px 10px 20px;
+}
+    
+.activities{
+    background: #F1FAEE;
+    position: absolute;
+    margin: auto;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 800px;
+    justify-content: space-between;
+
+}
+
+img {
+    width: 100px;
+    border-radius: 30%;
+    
+}
+
+.background{
+    width: 100%;
+    background-color: #ffffff;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.guide{
+
+    width: 400px;
+    margin: 20px auto 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #A8DADC;
+    color: #1D3557;
+    box-shadow: 0px 6px 0px #1D3557;
+    
+    
+}
+
+.guide-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.selfie{
+    width: 150px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 12px;
+    border: 5px solid #ffffff;
+    
+}
